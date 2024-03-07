@@ -239,7 +239,7 @@ with col1:
     sns.set_context('talk')
     fig, ax = plt.subplots(figsize=(30,25))
 
-    sns.barplot(data=weathercond_df,
+    sns.barplot(data=weather_df,
             x='weather',
             y='total',
             ax=ax
